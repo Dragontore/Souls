@@ -1,3 +1,3 @@
-D:\Souls\Souls\Source\Souls\Souls.Build.cs
-D:\Souls\Souls\Source\Souls.Target.cs
-D:\Souls\Souls\Source\SoulsEditor.Target.cs
+D:\Users\adam\Documents\Unreal Projects\Souls\Souls\Source\Souls\Souls.Build.cs
+D:\Users\adam\Documents\Unreal Projects\Souls\Souls\Source\Souls.Target.cs
+D:\Users\adam\Documents\Unreal Projects\Souls\Souls\Source\SoulsEditor.Target.cs
