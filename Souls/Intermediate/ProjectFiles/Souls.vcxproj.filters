@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Souls.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BEEF6383-A7D9-4415-9225-EE67F63E4A48}</UniqueIdentifier>
+      <UniqueIdentifier>{F3470A15-DB40-473B-927D-FFF513C1C787}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Souls.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\SoulsEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{47DE2943-CF7C-4310-AC35-ACF1BDD03689}</UniqueIdentifier>
+      <UniqueIdentifier>{65EBC31D-2482-456B-9769-D38072CBC7CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Souls">
-      <UniqueIdentifier>{250891F8-9E35-41FE-B6EC-AE872795C160}</UniqueIdentifier>
+      <UniqueIdentifier>{C6DCC8E9-0C44-4D79-8FA1-AAB70C3ECBCA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Souls\Souls.Build.cs">
       <Filter>Source\Souls</Filter>
@@ -53,5 +54,47 @@
     <ClInclude Include="..\..\Source\Souls\SoulsGameMode.h">
       <Filter>Source\Souls</Filter>
     </ClInclude>
+    <Filter Include="Source\Souls\Private">
+      <UniqueIdentifier>{159EEBF4-8996-408B-B7B2-AD2FC5E6F69F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Souls\Private\Characters">
+      <UniqueIdentifier>{8C49850E-5398-41C7-80FC-E79A23B32E1C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Souls\Private\Characters\BaseCharacter.cpp">
+      <Filter>Source\Souls\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\Souls\Public">
+      <UniqueIdentifier>{68F212BD-F947-40C9-A4F9-ED631C63A08C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Souls\Public\Characters">
+      <UniqueIdentifier>{07A118EA-23E6-479F-B44C-23DE54C0BB98}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Souls\Public\Characters\BaseCharacter.h">
+      <Filter>Source\Souls\Public\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Souls\Public\Game Mechanics">
+      <UniqueIdentifier>{4d319c64-a051-4984-81c3-fc4ab2c23b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Souls\Private\Game Mechanics">
+      <UniqueIdentifier>{48f0957f-9653-4c00-a479-969117f338f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Souls\Public\Game Mechanics\MainPlayerController.h">
+      <Filter>Source\Souls\Public\Game Mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Souls\Public\Game Mechanics\MainGameMode.h">
+      <Filter>Source\Souls\Public\Game Mechanics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Souls\Private\Game Mechanics\MainPlayerController.cpp">
+      <Filter>Source\Souls\Private\Game Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Souls\Private\Game Mechanics\MainGameMode.cpp">
+      <Filter>Source\Souls\Private\Game Mechanics</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
