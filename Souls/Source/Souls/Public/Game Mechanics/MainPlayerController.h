@@ -13,5 +13,9 @@ UCLASS()
 class SOULS_API AMainPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+
+public:
+	
+
 	
 };
